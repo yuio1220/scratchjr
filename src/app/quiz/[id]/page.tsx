@@ -49,10 +49,10 @@ export default function QuizContents () {
                     <img style={{height:"65px"}} onClick={()=>{addBlock(right_arrow_button.src)}}  src={right_arrow_button.src} />
                 </div>
                 <div className="orange-button">
-                    <img style={{height:"65px"}} onClick={()=>{console.log("CLICK")}} src={speed_button.src} />
-                    <img style={{height:"65px"}} onClick={()=>{console.log("CLICK")}} src={slow_button.src} />
-                    <img style={{height:"65px"}} onClick={()=>{console.log("CLICK")}} src={normal_button.src} />
-                    <img style={{height:"65px"}} onClick={()=>{console.log("CLICK")}} src={fast_button.src} />
+                    <img style={{height:"65px"}} onClick={()=>{addBlock(slow_button.src)}}  src={slow_button.src} />
+                    <img style={{height:"65px"}} onClick={()=>{addBlock(normal_button.src)}}  src={normal_button.src} />
+                    <img style={{height:"65px"}} onClick={()=>{addBlock(fast_button.src)}}  src={fast_button.src} />
+
                 </div>
             
                 <div className="code-box" style={{marginTop:"50px", border: "solid black",flexGrow: "1" }}>
